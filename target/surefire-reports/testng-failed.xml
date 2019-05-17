@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [apitests]">
+  <test thread-count="5" verbose="0" name="Posts(failed)">
+    <classes>
+      <class name="com.api.demo.tests.Posts">
+        <methods>
+          <include name="updateAnExistingPost"/>
+          <include name="createNewPost"/>
+          <include name="setup"/>
+          <include name="unableToViewDeletedPost"/>
+        </methods>
+      </class> <!-- com.api.demo.tests.Posts -->
+    </classes>
+  </test> <!-- Posts(failed) -->
+</suite> <!-- Failed suite [apitests] -->

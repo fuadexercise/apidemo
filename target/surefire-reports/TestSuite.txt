@@ -1,0 +1,25 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 3.263 s <<< FAILURE! - in TestSuite
+createNewPost(com.api.demo.tests.Posts)  Time elapsed: 0.328 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <201> but was <500>.
+
+	at com.api.demo.tests.Posts.createNewPost(Posts.java:23)
+
+updateAnExistingPost(com.api.demo.tests.Posts)  Time elapsed: 0.307 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <201> but was <500>.
+
+	at com.api.demo.tests.Posts.updateAnExistingPost(Posts.java:42)
+
+unableToViewDeletedPost(com.api.demo.tests.Posts)  Time elapsed: 0.119 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <404> but was <200>.
+
+	at com.api.demo.tests.Posts.unableToViewDeletedPost(Posts.java:60)
+

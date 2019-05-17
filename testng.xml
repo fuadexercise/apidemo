@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="apitests">
+    <test name="Albums">
+        <classes>
+            <class name="com.api.demo.tests.Albums" />
+        </classes>
+    </test>
+    <test name="Comments">
+        <classes>
+            <class name="com.api.demo.tests.Comments" />
+        </classes>
+    </test>
+    <test name="Posts">
+        <classes>
+            <class name="com.api.demo.tests.Posts" />
+        </classes>
+    </test>
+</suite>

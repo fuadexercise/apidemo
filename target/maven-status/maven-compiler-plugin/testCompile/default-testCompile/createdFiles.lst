@@ -1,0 +1,6 @@
+com/api/demo/config/TestConfig.class
+com/api/demo/tests/Posts.class
+com/api/demo/tests/Albums.class
+com/api/demo/config/EndPoint.class
+com/api/demo/tests/Comments.class
+com/api/demo/AppTest.class
