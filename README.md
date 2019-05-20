@@ -30,5 +30,5 @@ and code error if the end point names later change.
 
 * There are eight tests running in total with three of the tests failing
 * The failed tests relate to the /Posts/ end point. 
-* The failed tests relate to, user being unable to create post, unable to update existing post or being able to view deleted deals.
+* The failed tests relate to, user being unable to create post, unable to update existing post or being able to view deleted posts.
 
